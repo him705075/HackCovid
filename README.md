@@ -16,8 +16,6 @@
   <li>Do’s And Don’ts: Keep you away from don’ts and motivate to work on Dos. </li>
 </ul>
 
-### Med Chatbot
-<p> ChatBOT: Your Health Buddy. Advance bot where users can feel as they are chatting with Dr. <br> Github: https://github.com/aakriti1318/med-chatbot</p>
 
 ### Tech Stack
 Machine learning, Python, Flask, HTML, CSS, and Bootstrap.
@@ -26,4 +24,4 @@ Machine learning, Python, Flask, HTML, CSS, and Bootstrap.
     </tr>
   </table>
   
-<h2> Made with ♥ </h2>
+<h2> Made by- Himanshu Priyadarshi & Made with ♥ </h2>
