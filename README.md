@@ -26,13 +26,7 @@
 ### Tech Stack
 Machine learning, Python, Flask, HTML, CSS, Javascript and Bootstrap.
 
-## Teammates
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/aakriti1318"><img src="https://avatars.githubusercontent.com/u/56245613?v=4" width="100px;" alt=""/><br /><sub><b>Aakriti Aggarwal</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/Ayushparikh-code"><img src="https://avatars.githubusercontent.com/u/60268067?v=4" width="100px;" alt=""/><br /><sub><b>Ayush Parikh</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/sidd2010"><img src="https://avatars.githubusercontent.com/u/42260219?v=4" width="100px;" alt=""/><br /><sub><b>Siddhant Wadhwa</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/Abhay-Raj-Singh"><img src="https://avatars.githubusercontent.com/u/68518525?v=4" width="100px;" alt=""/><br /><sub><b>Abhay Raj Singh</b></sub></a><br /></td>
+
     </tr>
   </table>
   
