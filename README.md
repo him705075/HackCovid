@@ -1,8 +1,4 @@
-# HackCovid 
-<p>Hackathon on <a href="https://www.hackerearth.com/challenges/hackathon/hackerearth-hackcovid-2/">Hackerearth</a></p>
-
 ### Demo:
-<p><ul> <li>Video: <a href="https://youtu.be/_pgZu4y-jB4"> Click Here</a></li>
   <li>Working Link: <a href="https://hackcovidrelive.herokuapp.com/">Click Here</a></li>
   <li>Presentation: <a href="https://docs.google.com/presentation/d/1OKoLZCtqwbfXU6wtadOwJvASG5t0OTsL1npZPmoYBeg/edit?usp=sharing"> Click Here</a></li>
 </p>
@@ -24,7 +20,7 @@
 <p> ChatBOT: Your Health Buddy. Advance bot where users can feel as they are chatting with Dr. <br> Github: https://github.com/aakriti1318/med-chatbot</p>
 
 ### Tech Stack
-Machine learning, Python, Flask, HTML, CSS, Javascript and Bootstrap.
+Machine learning, Python, Flask, HTML, CSS, and Bootstrap.
 
 
     </tr>
