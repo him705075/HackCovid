@@ -1,0 +1,2 @@
+# HackCovid
+Features Home Page: Awareness on how covid spread and how to take necessary preventions Volunteer Help: Lets people voluntarily help a covid positive people by donating them Covid Case Tracker: A volunteer-driven crowdsourced effort to track the coronavirus in India Covid Test: ML-based covid predictor, where users can regularly test. Breathe Pacer: Anti-Stress Maximum Relaxation 6. Yoga: Helps to fight users against bad times. Do’s And Don’ts: Keep you away from don’ts and motivate to work on Dos.
