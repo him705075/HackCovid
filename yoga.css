@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link{
+    text-decoration: none;
+    font-family: inherit;
+    color: inherit;
+}
+
+.main-header{
+    background: url(../images/yoga/yooga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.hero-content{
+    position: absolute;
+    top: 40%;
+    left: 30px;
+    transform: translateY(-50%);
+}
+.hero-cta{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 40px;
+    background: #66145f;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.nav-list{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-link{
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: bold;
+    transition: color .3s;
+}
+.nav-link:hover{
+    color: #ccc;
+}
+
+.nav-item{
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 50px;
+    border: turquoise;
+}
+.main-heading{
+    font-weight: normal;
+    color: #fff;
+    font-size: 65px;
+}
+.main-heading-focus{
+    color: #66145f;
+    font-weight: bold;
+}
+.hero-cta{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #66145f;
+    display: inline-block;
+    margin-top: 30px;
+}
+.main-container{
+    margin-top: 30px;
+}
+.main-card-title{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+.main-card-sub{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(51, 9, 23);
+}
+.card-content{
+    width: 1260px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.card-img-container{
+    width: 400px;
+    height: 100%;
+    background: #e775c7;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.card-img{
+    height: 90%;
+    transition: .5s ease-out;
+}
+.card-title{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+}
+.card-span{
+    font-weight: normal;
+    display: block;
+}
+.card-info{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    top: -100%;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    transition: .5s ease-out;
+}
+.card-info-list{
+    margin: 15px;
+}
+.card-info-item{
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.card-img-container:hover > .card-info{
+    top: 0;
+}
+.card-img-container:hover > .card-img{
+    transform: scale(1.5);
+}
+.card{
+    display: flex;
+    flex-direction: column;
+}

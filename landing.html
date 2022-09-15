@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RELIVE</title>
+    <link rel="stylesheet" type="text/css" href="../static/CSS/landing.css" />
+    <link rel="stylesheet" type="text/css" href="../static/CSS/jarallax.css" />
+  </head>
+  <body>
+    <section class="jarallax">
+      <header class="header">
+        <div class="nav-bar">
+          <div class="logo">
+            <a href="/">RELIVE</a>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="/index">Covid Test</a></li>
+              <li><a href="/donation">Care Fund</a></li>
+              <li><a href="https://covid-med-chatbot.herokuapp.com/">Chat with Dr</a></li>
+              <li><a href="/map">Covid Cases</a></li>
+              <li><a href="/yoga">Yoga</a></li>
+              <li><a href="/breathe">Breathe Pacer</a></li>
+              <li><a href="/dos">Do's & Don'ts</a></li>
+              <li><a href="/faq">FAQ</a></li>
+              <li><a href="/feedback" class="active">Feedback</a></li>
+<!--               <li><a href="/login" >Login</a></li> -->
+            </ul>
+          </div>
+          <div class="social">
+            <ul>
+              <li>
+                <a href="https://github.com/aakriti1318/HackCovid"
+                  ><i class="fa fa-github"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="hero-sec">
+        <div class="overlay">
+          <div class="caption">
+            <h3>THE TIME TO RELIVE</h3>
+            <p class="description">We Help You, You Help Others</p>
+            <p class="description">
+              GET UPDATED WITH COVID CASES | TRACK YOUR HEALTH | CONNECT WITH DR. | DONATE TO THE NEEDY | RELEASE YOUR STRESS | AID YOURSEF WITH YOGA | BREATHE IN BREATHE OUT | 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="../static/js/jarallax.min.js"></script>
+    <script src="../static/js/jarallax-video.min.js"></script>
+    <script type="text/javascript">
+      $(".jarallax").jarallax({
+        speed: 0.4,
+        videoSrc: "https://www.youtube.com/watch?v=oqFn6AHoJZQ",
+        videoStartTime: 15,
+        videoEndTime: 45,
+      });
+    </script>
+  </body>
+</html>

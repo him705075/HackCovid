@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Detector</title>
+    <style>
+        .btn
+        {
+            display: block;
+            width: 100%;
+            border: none;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            border-radius: inherit;
+        }
+        .dropdown
+        {
+            display: block;
+            width: 100%;
+            border: none;
+            padding: 14px 28px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+        }
+                
+        .link{
+            text-decoration: none;
+            font-family: inherit;
+            color: white;
+            margin-left: 1350px;
+        }
+        body
+        {
+            background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("../static/images/covid_19_proj.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size:x-large;
+            font: optional;
+        }
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">RELIVE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="link" href="/">HOME <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <div class="container">
+          <h2 style="color:floralwhite; font-family:serif; font-style:normal; font-size: 50px" class="text-center mt-3">COVID DETECTOR</h2>
+          <br>
+          <form action="{{ url_for('predict')}}" method="POST">
+            <div class="form-group">
+              <label style="color:azure;" for="age">Enter Age Value (in years)</label>
+              <input autofocus type="text" class="form-control" id="age" name="age" placeholder="Enter your Age" required="true">
+            </div>
+
+            <div class="form-group">
+              <label style="color:azure;" for="fever">Enter Fever Value (in Fahrenheit)</label>
+              <input autofocus type="text" class="form-control" id="fever" name="fever" placeholder="Enter Fever Value" required="true">
+            </div>
+            
+            <div class="form-group">
+              <label style="color:azure;" for="pain">Body Pain</label>
+              <select class="form-control custom-select" name="pain" id="pain">
+                <option value="0">No Pain</option>
+                <option value="1">Severe Pain</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+                <label style="color:azure;" for="runnyNose">Runny Nose</label>
+                <select class="form-control custom-select" name="runnyNose" id="runnyNose">
+                  <option value="0">No</option>
+                  <option value="1">Yes</option>
+                </select>
+              </div>
+              <div style="color:azure;" class="form-group">
+                <label for="diffBreath">Breathing Difficulty</label>
+                <select class="form-control custom-select" name="diffBreath" id="diffBreath">
+                  <option value="-1">No Difficulty</option>
+                  <option value="0">Little Difficulty</option>
+                  <option value="1">Severe Difficulty</option>
+                </select>
+              </div>
+            <button class="btn1 btn-success">Submit</button>
+          </form>
+            <br><h3><b>{{ prediction_text }}</b></h3>
+         
+      
+  </body>
+</html>

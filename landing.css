@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: #000;
+}
+.header{
+    width: 100%;
+    background-color: transparent;
+}
+.header .nav-bar{
+    width: 90%;
+    height: 80px;
+    line-height: 80px;
+    margin: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #fff;
+}
+.header .nav-bar .logo{
+    z-index: 2;
+}
+.header .nav-bar .logo a{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header .nav-bar .menu{
+    z-index: 2;
+}
+.header .nav-bar .menu ul li{
+    margin-right: 1px;
+}
+.header .nav-bar .menu ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 100px
+    text-transform: capitalize;
+    transition: all 0.5s;
+    opacity: 0.9;
+    color: #fff;
+}
+.header .nav-bar .menu ul li a.active{
+    opacity: 1;
+    background-color:turquoise;
+    color: #fff;
+}
+
+.header .nav-bar .menu ul li a:hover{
+    opacity: 1;
+    background-color: #fff;
+    color: #000;
+}
+.header .nav-bar .social{
+    z-index: 2;
+}
+.header .nav-bar .social ul li i{
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 5px;
+    text-align: center;
+    align-items: center;
+    font-size: 19px;
+    border-radius: 5px;
+    background-color: #cac5c542;
+    box-shadow: 0 0 25px rgba(24,24,24,.4);
+    transition: all 0.3s;
+}
+.header .nav-bar .social ul li i:hover{
+    background-color: #fff;
+    color: #000;
+} 
+section .hero-sec{
+    width: 100%;
+}
+section .hero-sec .caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+section .hero-sec .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+section .hero-sec .caption h3{
+    color: #fff;
+    font-size: 55px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+section .hero-sec .caption .description{
+    margin: 25px 0;
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 30px;
+}
